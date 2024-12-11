@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %} Courses {% endblock %}</h1>
+    {% for course in courses %}
+        <div class='course'>
+            <h3>#{{ course[0] }} - {{ course[1] }} BY {{ course[2] }}</h3>
+            <i><p>({{ course[3] }} pages)</p></i>
+            <p class='review'>{{ course[4] }}</p>
+            <i><p>Added {{ course[5] }}</p></i>
+        </div>
+    {% endfor %}
+{% endblock %}
