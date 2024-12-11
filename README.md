@@ -1,4 +1,4 @@
-# Web-Application-Final-OOP
+# Final Project
 Final project for the Operating Systems course
 University Schedule Management System
 
